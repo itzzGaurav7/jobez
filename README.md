@@ -48,13 +48,13 @@
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/jobez-extension.git
+   git clone https://github.com/itzzGaurav7/jobez
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd jobez-extension
+   cd jobez
    ```
 
 3. Install dependencies (if applicable):
