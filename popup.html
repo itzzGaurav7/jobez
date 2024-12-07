@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobez</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Jobez</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          class="search-icon"
+        >
+          <path
+            fill="currentColor"
+            d="M16.32 14.9l1.41 1.41L23 10l-5.27-5.27-1.41 1.41L20.19 9H4v2h16.19z"
+          />
+        </svg>
+      </div>
+
+      <form id="searchEnginesForm">
+        <label class="engine-option" for="ambitionbox">
+          <input
+            type="checkbox"
+            id="ambitionbox"
+            name="engine"
+            value="AmbitionBox"
+          />
+          <img
+            src="https://static.ambitionbox.com/alpha/community/assets/icon-ab.png"
+            alt="AmbitionBox logo"
+            class="engine-logo"
+          />
+          <div class="engine-details">
+            <div class="engine-name">AmbitionBox</div>
+            <div class="engine-description">Indian job market insights</div>
+          </div>
+          <div class="checkbox"></div>
+        </label>
+
+        <label class="engine-option" for="glassdoor">
+          <input
+            type="checkbox"
+            id="glassdoor"
+            name="engine"
+            value="GlassDoor"
+          />
+          <img
+            src="https://www.glassdoor.com/favicon.ico"
+            alt="GlassDoor logo"
+            class="engine-logo"
+          />
+          <div class="engine-details">
+            <div class="engine-name">GlassDoor</div>
+            <div class="engine-description">Company reviews & salaries</div>
+          </div>
+          <div class="checkbox"></div>
+        </label>
+      </form>
+
+      <!-- <button class="search-button" disabled>Start Search</button> -->
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
